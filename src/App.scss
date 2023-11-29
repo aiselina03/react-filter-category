@@ -1,0 +1,40 @@
+.App {
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      padding: 8px 15px;
+      color: white;
+      background-color: lightsteelblue;
+      border: none;
+      border-radius: 6px;
+      margin: 20px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    place-items: center;
+    gap: 30px;
+    .card {
+      border: 1px solid gainsboro;
+      width: 300px;
+      border-radius: 6px;
+      padding: 0 20px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      img {
+        width: 200px;
+        height: 200px;
+        padding: 20px 0 20px 40px;
+      }
+      h3{
+        color: rgb(125, 167, 222);
+        text-align: center;
+      }
+    }
+  }
+}
